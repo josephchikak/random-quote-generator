@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Commissioner:wght@100&family=EB+Garamond&family=Noto+Sans+Mono&family=Righteous&display=swap');
+
+.btn{
+ display: flex;
+ justify-content: space-between; 
+}
+
+#new-qoute{
+    padding: 1em;
+    font-size: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Righteous', cursive;
+    background: rgba(255,255,255,0.5);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+}
+
+#new-qoute:hover{
+    background-color: rgb(62, 120, 177);
+    color: rgb(255, 255, 255);
+}
+
+.btn2{
+    background-image: url(./background/twitter.jpg);
+    width:50px;
+    /* background-color:rgb(122, 179, 235); */
+    background-size: cover;
+    border-radius: 20px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    min-height: 5vh;
+    border: none;
+}

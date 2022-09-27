@@ -1,0 +1,40 @@
+/* custom property */
+:root{
+  --clr-primary: hsl(0, 0%, 97%);
+}
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url('./background/background3.jpeg');
+  background-size: cover;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#quote-box{
+  background: rgba(255,255,255,0.5);
+  border-radius: 20px;
+  background-size: cover;
+  max-width: 100ch;
+  padding: 2rem;
+  box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 0.059),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.085),
+  30.1px 30.1px 24.1px rgba(0, 0, 0, 0.111),
+  100px 100px 80px rgba(0, 0, 0, 0.17);
+
+ display: grid;
+ grid-template-rows: auto;
+}
