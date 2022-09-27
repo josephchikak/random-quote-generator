@@ -41,8 +41,8 @@ class RandomQ extends React.Component{
                 <h1 style={{color:textColor}} id="text">"{this.state.quote}"</h1>
                 <p style={{color:textColor}} id="author">- Author: {this.state.author}</p>
                 <div className='btn'>
-                <button id="new-qoute"  onClick={this.componentDidMount}>New qoute</button>
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet"> <button className="btn2"></button> </a>
+                <button id="new-quote" onClick={this.componentDidMount}>New qoute</button>
+                <a id="tweet-quote" href="https://twitter.com/intent/tweet"> <button className="btn2"></button> </a>
                 </div>
             </div>
         );

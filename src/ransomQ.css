@@ -5,7 +5,7 @@
  justify-content: space-between; 
 }
 
-#new-qoute{
+#new-quote{
     padding: 1em;
     font-size: 10px;
     font-family: 'Amatic SC', cursive;
@@ -21,7 +21,7 @@
     border: none;
 }
 
-#new-qoute:hover{
+#new-quote:hover{
     background-color: rgb(62, 120, 177);
     color: rgb(255, 255, 255);
 }
